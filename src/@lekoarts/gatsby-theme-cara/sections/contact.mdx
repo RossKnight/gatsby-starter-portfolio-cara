@@ -1,2 +1,22 @@
 <h2>Get in touch</h2>
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 <p>Drop me an <a href="mailto:mail@example.com" onClick="this.href=this.href.replace('example.com', 'rossknight.co.uk')">E-mail</a> or find me on <a href="https://www.linkedin.com/in/rossknight/">LinkedIn</a>. Note: I made a life choice sometime ago to actively refrain from posting much on Social Networks</p>
