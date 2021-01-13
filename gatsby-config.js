@@ -17,7 +17,6 @@ siteDescription: `A passionate eCommerce specialist that loves swimming, likes r
 siteLanguage: `en`,
 siteImage: `/banner.jpg`,
 author: `Ross Knight`,
-basePath,
   },
   plugins: [
     {
