@@ -9,7 +9,15 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Ross Knight`,
+    siteTitle: `Ross Knight`,
+siteTitleAlt: `Ross Knight`,
+siteHeadline: `Ross Knight`,
+siteUrl: `https://rossknight.co.uk`,
+siteDescription: `A passionate eCommerce specialist that loves swimming, likes running and endures biking.`,
+siteLanguage: `en`,
+siteImage: `/banner.jpg`,
+author: `Ross Knight`,
+basePath,
   },
   plugins: [
     {
